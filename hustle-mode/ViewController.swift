@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         //grabbing wav file and loading into audioplayer
-        let path = Bundle.main.path(forResource: "hustle-on", ofType: "wav")!
+        let path = "/Users/leeh7/Documents/iOS/hustle-mode/hustle-mode/hustle-on.wav";
         let url = URL(fileURLWithPath: path)
         do{
             player = try AVAudioPlayer(contentsOf: url)
